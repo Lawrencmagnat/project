@@ -79,7 +79,7 @@ ul li a:hover {
 /*Setting the background image using before pseudo selctor*/
 #container1::before {
     content: '';
-    background: url("/My-Personal-project/Images/sharwama.png") no-repeat center center/cover;
+    background: url("/Images/sharwama.png") no-repeat center center/cover;
     width: 100vw;
     height: 59vh;
     position: absolute;
@@ -135,7 +135,7 @@ ul li a:hover {
 
 #row2::before {
     content: '';
-    background: url('/My-Personal-project/Images/meatpie\ 2.avif') no-repeat center center center/cover;
+    background: url('/Images/meatpie\ 2.avif') no-repeat center center center/cover;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -163,7 +163,7 @@ ul li a:hover {
 
 #row3::before {
     content: '';
-    background: url('/My-Personal-project/Images/buunto.jpeg') no-repeat center center /cover;
+    background: url('/Images/buunto.jpeg') no-repeat center center /cover;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -183,7 +183,7 @@ ul li a:hover {
     width: 29vw;
     height: 360px;
     border: 2px solid black;
-    background: url('/My-Personal-project//Images/meatpie.jpeg') no-repeat center center/cover;
+    background: url('/Images/meatpie.jpeg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -194,7 +194,7 @@ ul li a:hover {
     width: 29vw;
     height: 360px;
     border: 2px solid black;
-    background: url('/My-Personal-project/Images/buns\ 1.jpeg') no-repeat center center/cover;
+    background: url('/Images/buns\ 1.jpeg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -205,7 +205,7 @@ ul li a:hover {
     width: 30vw;
     height: 36opx;
     border: 2px solid black;
-    background: url('/My-Personal-project//Images/sharwama4.jpeg') no-repeat center center/cover;
+    background: url('/Images/sharwama4.jpeg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -241,7 +241,7 @@ footer {
 }
 
 /*Mahing the webpage reponsive using media queries*/
-/*@media only screen and (min-width:70px) {
+/*/@media only screen and (min-width:70px) {
     #row4 {
         width: 31vw;
     }
