@@ -241,7 +241,7 @@ footer {
 }
 
 /*Mahing the webpage reponsive using media queries*/
-/*/@media only screen and (min-width:70px) {
+@media only screen and (min-width:70px) {
     #row4 {
         width: 31vw;
     }
@@ -321,4 +321,4 @@ footer {
     #container1 {
         height: 44vh;
     }
-}*/
+}
