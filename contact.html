@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0," />
+    <meta name="description" content="" />
+    <meta name="keywords" content="HTML, CSS, query" />
+    <meta http-equiv="refresh" content="50" />
+    <link rel="stylesheet" href="index.css" />
+    <title>ContactUs</title>
+</head>
+
+<body>
+    <div id="ContactUs">
+        <h1>Contact Us</h1>
+        <form action="#">
+            <div class="form-shape">
+                <label for="query">Type of Query</label>
+                <select name="myQuery" id="query">
+                    <option value="sel" selected="selected">Select</option>
+                    <option value="ord">Order related Issues</option>
+                    <option value="Site">Site related Issues</option>
+                    <option value="fed">Complaint related Issues</option>
+                    <option value="others">Others</option>
+                </select>
+
+            </div>
+            <div class="form-shape">
+                <label for="email">Email-Id</label>
+                <input type="email" name="myEmail" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-shape">
+                <label for="pho">Phone Number</label>
+                <input type="phone" name="myPhone" id="pho" placeholder="Enter your phone number">
+            </div>
+            <div id="radio">
+                Are you a member of Lawrence OnlineFoodShop:<br>
+                Yes <input type="radio" name="eligible">
+                No <input type="radio" name="eligible">
+            </div>
+            <div class="form-shape">
+                <label for="message">Ellaborate your query</label>
+                <textarea name="mesg" id="message" col="50" value="15"></textarea>
+            </div>
+            <input type="submit" value="submit">
+            <input type="reset" value="Reset">
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
