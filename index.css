@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#top {
+    color: rgba(50, 10, 40, 0.9);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#top1 {
+    text-align: center;
+    color: black;
+    font-size: 46px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/*Navigation bar styling*/
+#navbar img {
+    display: flex;
+    align-items: center;
+    width: 550px;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 3px;
+
+}
+
+/*Navigation bar functionaity*/
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 32px;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+/*Navbar content functionality*/
+#navcontent {
+    display: flex;
+    justify-content: center;
+}
+
+/*Navbar content stlying*/
+ul li {
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+ul li a {
+    padding: 1px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+ul li a:hover {
+    background-color: coral;
+    border-radius: 10px;
+}
+
+/*website background image designing*/
+#container1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 63vh;
+}
+
+/*Setting the background image using before pseudo selctor*/
+#container1::before {
+    content: '';
+    background: url("/My-Personal-project/Images/sharwama.png") no-repeat center center/cover;
+    width: 100vw;
+    height: 59vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 45px;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0.89;
+    border: 2px solid black;
+    border-bottom-left-radius: 100px;
+}
+
+#row1 {
+    color: black;
+    font-size: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 35px;
+}
+
+/*Button Styling*/
+.btn {
+    margin-top: 15px;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: gold;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+
+#row2 {
+    width: 24vw;
+    height: 21vh;
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-right: 38px;
+    border-radius: 40px;
+}
+
+#row2::before {
+    content: '';
+    background: url('/My-Personal-project/Images/meatpie\ 2.avif') no-repeat center center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24vw;
+    height: 24vh;
+    z-index: -1;
+    border-radius: 40px;
+
+}
+
+#row3 {
+    position: relative;
+    width: 21vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+
+    margin-left: 71px;
+    border-radius: 40px;
+
+}
+
+#row3::before {
+    content: '';
+    background: url('/My-Personal-project/Images/buunto.jpeg') no-repeat center center /cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24vw;
+    height: 21vh;
+    z-index: -1;
+    border-radius: 40px;
+}
+
+#container4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 41px;
+}
+
+#row4 {
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background: url('/My-Personal-project//Images/meatpie.jpeg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+
+#row5 {
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background: url('/My-Personal-project/Images/buns\ 1.jpeg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+
+#row6 {
+    width: 30vw;
+    height: 36opx;
+    border: 2px solid black;
+    background: url('/My-Personal-project//Images/sharwama4.jpeg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+
+}
+
+/*Designing the footer*/
+footer {
+    text-align: center;
+}
+
+/*Designing the contact Us*/
+#ContactUs {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+
+.form-shape input,
+.form-shape textarea {
+    width: 92%;
+    padding: 0.5rem;
+
+}
+
+/*Changing the color of placeholder*/
+::placeholder {
+    color: gray;
+}
+
+/*Mahing the webpage reponsive using media queries*/
+/*@media only screen and (min-width:70px) {
+    #row4 {
+        width: 31vw;
+    }
+
+    #row5 {
+        width: 45vw;
+    }
+
+    #row6 {
+        margin-top: 20px;
+        width: 90vw;
+
+    }
+}
+
+@media only screen and (min-width:60px) and (max-width:50px) {
+    #row4 {
+        width: 84vw;
+        margin: auto;
+        margin-left: 22px;
+    }
+
+    #row5 {
+        width: 84vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+
+    #row6 {
+        margin-top: 20px;
+        width: 84vw;
+        margin: auto;
+        margin-left: 22px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width:60px) {
+
+    #row4 {
+        width: 78vw;
+        margin: auto;
+        margin-left: 3px;
+    }
+
+    #row5 {
+        width: 78vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+
+    #row6 {
+        margin-top: 20px;
+        margin-left: 3px;
+        margin: auto;
+        width: 78vw;
+
+    }
+}
+
+@media only screen and (min-width: 100px) {
+
+    #navbar {
+        height: 10vh;
+    }
+
+    #container1::before {
+        height: 39vh;
+
+    }
+
+    #container1 {
+        height: 44vh;
+    }
+}*/
